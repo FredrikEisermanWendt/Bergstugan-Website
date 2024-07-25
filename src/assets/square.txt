@@ -1,0 +1,19 @@
+collors
+green: #084040
+medium brown: BFA380
+lightbrown: E9DBCF
+
+
+
+
+small buttons like header
+<button type="button" className="btn btn-primary" style={{
+          '--bs-btn-padding-y': '.25rem',
+          '--bs-btn-padding-x': '.5rem',
+          '--bs-btn-font-size': '.75rem',
+        } as React.CSSProperties} >
+        Custom button
+      </button>
+
+
+

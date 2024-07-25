@@ -1,0 +1,97 @@
+.btn-primary {
+    color: #bfa380 !important;
+    background-color: #084040 !important;
+    border: 1px solid #084040 !important; /* Ensure border is visible */
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-width: 100%;
+    background-color: #E9DBCF;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+  }
+  
+  .logo-container {
+    flex: 0 1 auto; /* Adjust as needed to control the logo size */
+    text-align: center;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .logo-container img {
+    height: 85px;
+    width: auto;
+  }
+  
+  .links {
+      display: flex;
+      gap: 10px;
+      flex: 1;
+      align-items: stretch;
+    }
+    
+    .links-left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1;
+        justify-content: space-around;
+      
+      
+    }
+
+    .links-left-up{
+        display: flex;
+        flex-direction: row-reverse;
+        
+      }
+    
+      .links-left-down{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+      }
+      
+    
+  .links-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    justify-content: space-around;
+}
+
+  .links-right-up{
+    display: flex;
+    flex-direction: row-reverse;
+    
+  }
+
+  .links-right-down{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .btn {
+    margin: 0 10px;
+  }
+
+  #propbutton{
+    height: 35px;
+    border: 0px;
+    background-color: #E9DBCF;
+  }
+
+  #propbutton:hover {
+    cursor: default;
+  }
+ 
+  
+  
