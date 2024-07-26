@@ -1,8 +1,10 @@
-import React from 'react'
+import Main from "../components/bodyComponents/Main"
 
 const HistoryPage = () => {
   return (
-    <div>HistoryPage</div>
+    <Main>
+      <h1>HistoryPage</h1>
+    </Main>
   )
 }
 

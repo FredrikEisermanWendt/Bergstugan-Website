@@ -1,16 +1,12 @@
-import Footer from "../../components/Footer";
+import "../../components/PageWorkspace";
+import Main from "../../components/bodyComponents/Main";
+import "../devPages/devPage.css";
 
 const DevPage = () => {
   return (
-    <>
-
-      <main>
-        <h2>DevPage</h2>
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-    </>
+    <Main>
+      <h1>DevPage</h1>
+    </Main>
   );
 };
 

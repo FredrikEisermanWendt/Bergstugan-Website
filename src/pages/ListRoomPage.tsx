@@ -1,9 +1,11 @@
-import React from 'react'
+import Main from "../components/bodyComponents/Main";
 
 const ListRoomPage = () => {
   return (
-    <div>ListRoomPage</div>
-  )
-}
+    <Main>
+      <h1>ListRoomPage</h1>
+    </Main>
+  );
+};
 
-export default ListRoomPage
+export default ListRoomPage;

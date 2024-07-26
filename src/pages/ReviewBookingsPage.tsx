@@ -1,9 +1,11 @@
-import React from 'react'
+import Main from "../components/bodyComponents/Main";
 
 const ReviewBookingsPage = () => {
   return (
-    <div>ReviewBookingsPage</div>
-  )
-}
+    <Main>
+      <h1>RewierBookingPage</h1>
+    </Main>
+  );
+};
 
-export default ReviewBookingsPage
+export default ReviewBookingsPage;

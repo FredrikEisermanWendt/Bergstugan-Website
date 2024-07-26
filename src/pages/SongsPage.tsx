@@ -1,9 +1,11 @@
-import React from 'react'
+import Main from "../components/bodyComponents/Main";
 
 const SongsPage = () => {
   return (
-    <div>SongsPage</div>
-  )
-}
+    <Main>
+      <h1>SongsPage</h1>
+    </Main>
+  );
+};
 
-export default SongsPage
+export default SongsPage;

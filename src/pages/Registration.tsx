@@ -1,73 +1,60 @@
+import Main from "../components/bodyComponents/Main";
 import "../pages/registration.css";
 
 const Registration = () => {
   return (
-    <>
-      <main>
-        <section className="vh-100 gradient-custom">
-          <div className="container py-5 h-100">
-            <div className="row justify-content-center align-items-center h-100">
-              <div className="col-12 col-lg-9 col-xl-7">
-                <div className="card shadow-2-strong card-registration" style={{ borderRadius: "15px" }}>
-                  <div className="card-body p-4 p-md-5">
-                    <h3 className="mb-4 pb-2 pb-md-0 mb-md-5">Registrera ny användare</h3>
+    <Main>
+      <section className="m-3">
+        <div className="mask d-flex align-items-center h-100 gradient-custom-3 ">
+          <div className="container h-100">
+            <div className="row d-flex justify-content-center align-items-center h-100">
+              <div className="col-12 col-md-9 col-lg-7 col-xl-6 ">
+                <div className="card p-3 regist-form-color" style={{ borderRadius: "15px" }}>
+                  <div className="card-body p-5 regist-form-color">
+                    <h2 className="text-uppercase text-center mb-5">Registrera ditt konto</h2>
+
                     <form>
-                      <div className="row">
-                        <div className="col-md-6 mb-4">
-                          <div data-mdb-input-init className="form-outline">
-                            <input type="text" id="firstName" className="form-control form-control-lg" placeholder="Förnamn" />
-                          </div>
-                        </div>
-                        <div className="col-md-6 mb-4">
-                          <div data-mdb-input-init className="form-outline">
-                            <input type="text" id="lastName" className="form-control form-control-lg" placeholder="Efternamn" />
-                          </div>
-                        </div>
+                      <div data-mdb-input-init className="form-outline mb-4">
+                        <input type="text" id="form3Example1cg" className="form-control form-control-lg" placeholder="Förnamn" />
                       </div>
 
-                      <div className="row">
-                        <div className="col-md-6 mb-4 d-flex align-items-center">
-                          <div data-mdb-input-init className="form-outline datepicker w-100">
-                            <input type="password" className="form-control form-control-lg" id="password" placeholder=""/>
-                           
-                          </div>
-                        </div>
+                      <div data-mdb-input-init className="form-outline mb-4">
+                        <input type="text" id="form3Example1cg" className="form-control form-control-lg" placeholder="Efternamn" />
                       </div>
 
-                      <div className="row">
-                        <div className="col-md-6 mb-4 d-flex align-items-center">
-                          <div data-mdb-input-init className="form-outline datepicker w-100">
-                            <input type="password" className="form-control form-control-lg" id="repassword" />
-                            <label htmlFor="repassword" className="form-label">
-                              Skriv lösenordet igen
-                            </label>
-                          </div>
-                        </div>
+                      <div data-mdb-input-init className="form-outline mb-4">
+                        <input type="email" id="form3Example3cg" className="form-control form-control-lg" placeholder="Email" />
                       </div>
 
-                      <div className="row">
-                        <div className="col-md-6 mb-4 pb-2">
-                          <div data-mdb-input-init className="form-outline">
-                            <input type="email" id="emailAddress" className="form-control form-control-lg" />
-                            <label className="form-label" htmlFor="emailAddress">
-                              Email
-                            </label>
-                          </div>
-                        </div>
+                      <div data-mdb-input-init className="form-outline mb-4">
+                        <input type="password" id="form3Example4cg" className="form-control form-control-lg" placeholder="Lösenord" />
                       </div>
-                      <div className="mt-4 pt-2">
-                        <input data-mdb-ripple-init className="btn btn-primary btn-lg" type="submit" value="Submit" />
+
+                      <div data-mdb-input-init className="form-outline mb-4">
+                        <input type="password" id="form3Example4cdg" className="form-control form-control-lg" placeholder="Upprepa lösenord" />
                       </div>
+
+                      <div className="d-flex justify-content-center">
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-block btn-lg  btn-primary">
+                          Registrera
+                        </button>
+                      </div>
+
+                      <p className="text-center text-muted mt-5 mb-0">
+                        Have already an account?{" "}
+                        <a href="/login" className="fw-bold text-body">
+                          <u>Login here</u>
+                        </a>
+                      </p>
                     </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </main>
-      <footer></footer>
-    </>
+        </div>
+      </section>
+    </Main>
   );
 };
 

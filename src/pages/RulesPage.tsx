@@ -1,9 +1,11 @@
-import React from 'react'
+import Main from "../components/bodyComponents/Main";
 
 const RulesPage = () => {
   return (
-    <div>RulesPage</div>
-  )
-}
+    <Main>
+      <h1>RulesPage</h1>
+    </Main>
+  );
+};
 
-export default RulesPage
+export default RulesPage;

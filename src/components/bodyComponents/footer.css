@@ -1,0 +1,48 @@
+/* footer {
+  background-color: #e9dbcf;
+  margin-top: 0;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.form-container {
+  display: flex;
+  min-height: 65px;
+  padding: 0 10px 10px 0;
+  padding-bottom: 10px;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  min-width: 100%;
+}
+
+form{
+    display: flex;
+}
+
+.form-date-box{ 
+    display: flex;
+    align-items: flex-end;
+    margin: 0 5px 0 5px;
+    color: #084040;
+} */
+
+
+footer{
+    background-color: #E9DBCF;
+}
+
+/* Custom CSS for footer form alignment */
+.form-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns form to the right */
+}
+
+.form-group {
+    margin-right: 15px; /* Adds spacing between form elements */
+}
+
+.btn-primary {
+    margin-top: 5px; /* Aligns the button with the form inputs if needed */
+}

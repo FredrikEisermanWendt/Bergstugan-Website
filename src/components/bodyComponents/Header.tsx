@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import "../components/componentCss/header.css";
-import LinkButton from "./LinkButton";
+import "./header.css";
+import LinkButton from "../LinkButton";
 
 const Header = () => {
   return (

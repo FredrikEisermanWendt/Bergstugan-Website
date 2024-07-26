@@ -1,8 +1,10 @@
-import React from 'react'
+import Main from '../components/bodyComponents/Main'
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <Main>
+      <h1>HomePage</h1>
+    </Main>
   )
 }
 

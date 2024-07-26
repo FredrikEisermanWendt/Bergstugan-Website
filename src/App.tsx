@@ -10,26 +10,30 @@ import ListRoomPage from "./pages/ListRoomPage";
 import ReviewBookingsPage from "./pages/ReviewBookingsPage";
 import RulesPage from "./pages/RulesPage";
 import DevPage from "./devFolder/devPages/DevPage";
-import Header from "./components/Header";
+import Header from "./components/bodyComponents/Header";
 import Registration from "./pages/Registration";
+import Footer from "./components/bodyComponents/Footer";
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Header/>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/booking" element={<BookingPage/>}/>
-          <Route path="/login" element={<LoginPage/>}/>
-          <Route path="/songs" element={<SongsPage/>}/>
-          <Route path="/history" element={<HistoryPage/>}/>
-          <Route path="/rooms" element={<ListRoomPage/>}></Route>
-          <Route path="/review-bookings" element={<ReviewBookingsPage/>}/>
-          <Route path="/rules" element={<RulesPage/>}/> 
-          <Route path="/register" element={<Registration/>}/> 
+        <body>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/booking" element={<BookingPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/songs" element={<SongsPage />} />
+            <Route path="/history" element={<HistoryPage />} />
+            <Route path="/rooms" element={<ListRoomPage />}></Route>
+            <Route path="/review-bookings" element={<ReviewBookingsPage />} />
+            <Route path="/rules" element={<RulesPage />} />
+            <Route path="/register" element={<Registration />} />
 
-          <Route path="/dev" element={<DevPage/>}/>
-        </Routes>
+            <Route path="/dev" element={<DevPage />} />
+          </Routes>
+          <Footer />
+        </body>
       </BrowserRouter>
     </>
   );

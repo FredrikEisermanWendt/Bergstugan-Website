@@ -1,8 +1,10 @@
-import React from 'react'
+import Main from '../components/bodyComponents/Main'
 
 const BookingPage = () => {
   return (
-    <div>BookingPage</div>
+    <Main>
+      <h1>BookingPage</h1>
+    </Main>
   )
 }
 
